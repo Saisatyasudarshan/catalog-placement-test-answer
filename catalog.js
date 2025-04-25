@@ -149,7 +149,7 @@ const processTestCases = () => {
     const pointsTestCase2 = parseTestCase(testCase2);
     const wrongPoints = findWrongPoints(pointsTestCase2, testCase2.keys.k);
     console.log('Wrong points in testcase 2 in (x,y) format');
-    console.log(wrongPoints.map(point => ($(point[0]), $(point[1]))).join(", "));
+    console.log(wrongPoints.map(point => `{$(point[0]}, ${point[1]})`).join(", "));
 };
 
 // Run the test case processor

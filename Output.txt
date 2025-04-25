@@ -1,0 +1,6 @@
+Output for testcase 1
+23
+Output for testcase 2
+172413718232801
+Wrong points in testcase 2 in (x,y) format
+(7, 28859585857715), (8, 28735619441184), (9, 28735619219333)
